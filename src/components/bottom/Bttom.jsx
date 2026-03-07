@@ -1,8 +1,11 @@
 import React from 'react'
+import Cards from './Cards'
 
 function Bttom() {
   return (
-    <div className='bg-blue-50 w-[80vw] h-1/3'>Bttom</div>
+    <div className='bg-yellow-50 border h-[40vh] w-[80vw]'>
+      <Cards/>
+    </div>
   )
 }
 

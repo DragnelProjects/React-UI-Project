@@ -3,7 +3,7 @@ import Section1 from './components/Section1'
 
 function App() {
   return (
-    <div className='h-full w-full flex'>
+    <div className='h-full w-full flex bg-yellow-50 overflow-hidden'>
       <Section1/>
     </div>
   )
