@@ -4,7 +4,7 @@ import ImageBox from './ImageBox'
 
 function Middle() {
   return (
-    <div className='bg-amber-400 h-[80vh] w-[80vw] flex'>
+    <div className='border border-amber-400 h-[80vh] w-[80vw] flex p-2'>
         <LeftSide/>
         <ImageBox/>
     </div>

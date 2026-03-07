@@ -4,7 +4,7 @@ import Bttom from './bottom/Bttom'
 
 function Container() {
   return (
-    <div className='h-full flex flex-col items-center bg-blue-300'>
+    <div className='h-full flex flex-col items-center bg-yellow-50'>
       <Middle/>
       <Bttom/>
     </div>
