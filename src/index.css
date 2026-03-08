@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme{
+    --animate-slide-show: slide-show 40s linear infinite;
+
+    @keyframes slide-show {
+        0% { transform: translateX(0); } /* Show first slide */
+        50% { transform: translateX(-650%); }
+        100% { transform: translateX(0); } /* Back to first slide */
+}
+
+}
